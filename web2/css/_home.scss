@@ -6,18 +6,21 @@
     text-align: center;
     background: linear-gradient(to right,rgba($primary-color,0.9),rgba($primary-color,0.3)), url('../image/model-1.jpg');
     background-size: cover;
-    &_name{
-        font-size: 5rem;
-        padding-bottom: 1rem;
-        margin-top: 1rem;
-        border-bottom: 2px solid #fff;
-        &--last{
-            color:rgb(101, 233, 101);
-        }
-    }
 
-    @mixin transition-ease{
-        transition: all 0.5s ease-in-out;
+    &__name{
+        font-size: 4rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid set-text-color($primary-color);
+
+        &--first{
+            color: rgb(224, 220, 220);
+        }
+
+        &--last{
+            color: rgb(58, 40, 40);
+            font-weight: 700;
+        }
     }
 
 }
