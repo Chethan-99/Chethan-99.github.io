@@ -12,14 +12,20 @@
   margin-top: -50px;
 }
 
-#About .fa {
-  color: white;
+#AboutData1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.media-body {
-  float: right;
-  padding-top: 20px;
-  margin-right: 100px;
+#About .fa {
+  color: white;
 }
 
 #AboutData span {
