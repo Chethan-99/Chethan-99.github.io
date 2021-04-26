@@ -6,7 +6,7 @@
       width: 100%;
       padding-left: 0.7rem;
       padding-right: 0.7rem;
-      background: linear-gradient(to right,rgba($primary-color,0.9),rgba($primary-color,0.3)), url('../image/model-1.jpg');
+      background: linear-gradient(to right,rgba($primary-color,0.9),rgba($primary-color,0.3)), url('../image/project-2.jpg');
       background-size: cover;
       display: flex;
       flex-direction: column;
@@ -48,4 +48,11 @@
 
 footer{
   transform: rotate(90deg) translate(-3rem,-5rem);
+}
+
+.text-secondary {
+  font-size: 2rem;
+  color: $secondary-color;
+  margin-bottom: 1rem;
+  text-align: center;
 }
